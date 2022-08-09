@@ -3,13 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Karta/OneDrive/Desktop/PUKKA/EZEKWIZ/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Users/Karta/OneDrive/Desktop/PUKKA/EZEKWIZ/app/src/main/res/layout/start_game.xml" value="0.12001811594202899" />
         <entry key="..\:/Users/Manuel/Desktop/Quiz app/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/Manuel/Desktop/Quiz app/app/src/main/res/layout/game_over.xml" value="0.25" />
         <entry key="..\:/Users/Manuel/Desktop/Quiz app/app/src/main/res/layout/start_game.xml" value="0.33" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

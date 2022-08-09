@@ -62,7 +62,7 @@
             android:layout_marginBottom="5dp"
             android:gravity="center"
             android:text="Can you identify the Technology in picture?"
-            android:textSize="24sp" />
+            android:textSize="35sp" />
         <!-- Create a vertical LinearLayout to show the image for Technology
         that is in question, four buttons to display four options, a TextView
         for showing the result of any user selection, right or wrong and a Button
@@ -77,48 +77,53 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/ivShowImage"
-                android:layout_margin="5dp"
+                android:layout_marginTop="10mm"
+                android:layout_marginBottom="10mm"
                 tools:srcCompat="@drawable/android" />
+
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:id="@+id/btn1"
-                android:onClick="answerSelected"
-                android:textSize="32sp"
-                android:textColor="@android:color/white"
-                android:background="#2196f3"
-                app:backgroundTint="@null"
-                android:layout_margin="2dp" />
-            <Button
-                android:layout_width="match_parent"
+                android:layout_width="483dp"
                 android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="#2196f3"
+                android:onClick="answerSelected"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:backgroundTint="@null" />
+
+            <Button
                 android:id="@+id/btn2"
-                android:onClick="answerSelected"
-                android:textSize="32sp"
-                android:textColor="@android:color/white"
-                android:background="#2196f3"
-                app:backgroundTint="@null"
-                android:layout_margin="2dp" />
-            <Button
-                android:layout_width="match_parent"
+                android:layout_width="483dp"
                 android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="#2196f3"
+                android:onClick="answerSelected"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:backgroundTint="@null" />
+
+            <Button
                 android:id="@+id/btn3"
-                android:onClick="answerSelected"
-                android:textSize="32sp"
-                android:textColor="@android:color/white"
-                android:background="#2196f3"
-                app:backgroundTint="@null"
-                android:layout_margin="2dp" />
-            <Button
-                android:layout_width="match_parent"
+                android:layout_width="483dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/btn4"
-                android:onClick="answerSelected"
-                android:textSize="32sp"
-                android:textColor="@android:color/white"
+                android:layout_margin="2dp"
                 android:background="#2196f3"
-                app:backgroundTint="@null"
-                android:layout_margin="2dp" />
+                android:onClick="answerSelected"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:backgroundTint="@null" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="483dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="#2196f3"
+                android:onClick="answerSelected"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:backgroundTint="@null" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
